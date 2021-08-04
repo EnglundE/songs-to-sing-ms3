@@ -22,8 +22,8 @@ mongo = PyMongo(app)
 @app.route("/")
 @app.route("/get_categories")
 def get_categories():
-    categories = mongo.db.categories.find()
-    return render_template("categories.html", categories=categories)
+    lyrics = mongo.db.lyrics.find()
+    return render_template("categories.html", lyrics=lyrics)
 
 
 if __name__ == "__main__":
