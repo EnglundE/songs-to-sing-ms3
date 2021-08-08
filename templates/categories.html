@@ -1,1 +1,20 @@
-{% extends "base.html" %} {% block content %} {% endblock %}
+{% extends "base.html" %} {% block content %}
+<div class="row">
+  {% for lyric in lyrics %}
+  <div class="col s3 m4">
+    <div class="card">
+      <div class="card-image">
+        <img
+          src="https://www.bozita.se/media/2927/bozita-kopa-katt.jpg?width=1000"
+        />
+        <span class="card-title">{{ lyric.category_name }}</span>
+      </div>
+      <div class="card-content">
+        <p>{{ lyric.song_name }}</p>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% endblock %}
