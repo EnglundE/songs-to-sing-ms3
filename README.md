@@ -54,11 +54,19 @@
 
 ### Returning Visitor Goals
 
-> 5.
+> 4. As a returning visitor, I want to browse through all categories of songs.
+> 5. As a returning visitor, I want to add my favorite songs to my profile.
+> 6. As a returning visitor, I want to update or remove songs from my favorites.
+> 7. As a returning visitor, I want to add new songs.
+> 8. As a returning visitor, I want to update or delete my added songs.
+> 9. As a returning visitor, I want to search for songs.
 
 ### Site Owner Goals
 
->
+> 10. As a site owner, I want to gather songs for other parents to use in one place.
+> 11. As a site owner, I want to enable users/other parents to find and browse songs for their kids in one place.
+> 12. As a site owner, I want to enable users/other parents to add, update and delete new songs.
+> 13. As a site owner, I want to be able to update, add or delete new categories.
 
 ### Strategy
 
