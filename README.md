@@ -48,7 +48,9 @@
 
 ### First time Visitors Goals
 
-> 1.
+> 1. As a first time visitor, I want to clearly understand the purpose of the site.
+> 2. As a first time visitor, I want to browse the songs suited for me and my child.
+> 3. As a first time visitor, I want to create a user login.
 
 ### Returning Visitor Goals
 
