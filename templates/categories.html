@@ -4,9 +4,9 @@
   <div class="col s3 m4">
     <div class="card">
       <div class="card-image">
-        <img
-          src="https://www.bozita.se/media/2927/bozita-kopa-katt.jpg?width=1000"
-        />
+        {% for item in contents %}
+        <img src="{{ item }}" />
+        {% endfor %}
         <span class="card-title">{{ lyric.category_name }}</span>
       </div>
       <div class="card-content">
@@ -16,5 +16,4 @@
   </div>
   {% endfor %}
 </div>
-
 {% endblock %}

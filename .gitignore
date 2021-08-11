@@ -1,2 +1,5 @@
 env.py
 __pycache__/
+.venv
+/venv
+launch.json
