@@ -168,6 +168,7 @@ All credits are also in the code above each code snippet.
 #### Code
 
 > - Credit to Code Institute course to setup the the project, create a MongoDB database, connect to MongoDB.
+> - Credit to Diane Phan for setting up connection from the app to AWS s3 Bucket: https://www.twilio.com/blog/media-file-storage-python-flask-amazon-s3-buckets
 
 #### Content
 
