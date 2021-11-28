@@ -1,12 +1,10 @@
 {% extends "base.html" %} {% block content %}
 <div class="row">
-  {% for lyric in lyrics %}
+  {% for lyric in lyrics %} {% for category in categories %}
   <div class="col s3 m4">
     <div class="card">
       <div class="card-image">
-        {% for item in contents %}
-        <img src="{{ item }}" />
-        {% endfor %}
+        <img src="{{ category.image_url }}" />
         <span class="card-title">{{ lyric.category_name }}</span>
       </div>
       <div class="card-content">
@@ -14,6 +12,6 @@
       </div>
     </div>
   </div>
-  {% endfor %}
+  {% endfor %} {% endfor %}
 </div>
 {% endblock %}
